@@ -77,11 +77,15 @@ function App() {
   return (
     <>
       <h1 className="text-3xl font-bold underline">Ocean Orchestra</h1>
+     <div className="grid grid-flow-col grid-rows-3 gap-4">
+      <div className="row-start-1 row-end-4 ">
          <ul>
         {products.map(p => (
-          <li className="font-color: blue" key={p.id}> <span className="font-bold">{p.species}</span> / {p.name} </li>
+          <li className="tx-" key={p.id}> <span className="font-bold text-violet-800">{p.species}</span> / {p.name} </li>
         ))}
-    </ul> 
+        </ul> 
+      </div>
+    </div>
     </>
   );
 }
