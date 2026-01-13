@@ -37,6 +37,8 @@ func main() {
 		DB_PASSWORD = os.Getenv("DB_PASSWORD")
 		DB_NAME     = os.Getenv("DB_NAME")
 	)
+
+	// this would be set in the env.
 	if DB_HOSTNAME == "" {
 		DB_HOSTNAME = "localhost"
 	}

@@ -18,7 +18,6 @@ type DB struct {
 func NewConnection(hostname, port, user, password, database string) (*gorm.DB, error) {
 	dsn := fmt.Sprintf("host=%s user=%s password=%s dbname=%s port=%s sslmode=disable TimeZone=UTC",
 		hostname, user, password, database, port)
-	fmt.Println(dsn)
 	conn, err := gorm.Open(postgres.Open(dsn), &gorm.Config{})
 	if err != nil {
 		return nil, fmt.Errorf("could not establish a DB connection: %w", err)
