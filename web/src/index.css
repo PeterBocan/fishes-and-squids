@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+li {
+    font-variant: small-caps;
+}
+
+.special-font {
+    font-family: 'Lucida Sans';
+}

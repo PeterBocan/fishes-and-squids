@@ -79,7 +79,7 @@ function App() {
       <h1 className="text-3xl font-bold underline">Ocean Orchestra</h1>
          <ul>
         {products.map(p => (
-          <li className="font-color: blue" key={p.id}>{p.name} / {p.species} </li>
+          <li className="font-color: blue" key={p.id}> <span className="font-bold">{p.species}</span> / {p.name} </li>
         ))}
     </ul> 
     </>
