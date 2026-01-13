@@ -1,0 +1,3 @@
+-- This file gets run automatically by the Postgres image when the container is first created
+-- Feel free to add initial seeded data here or from the go server as you see fit
+-- Seed data can be found in db/products.json

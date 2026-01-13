@@ -1,0 +1,62 @@
+[
+  {
+    "id": "P001",
+    "name": "Frozen Prawns 16/20",
+    "species": "Prawn",
+    "origin_country": "India",
+    "production_method": "aquaculture",
+    "price_per_tonne": 1850,
+    "supplier_name": "BlueWave Foods",
+    "certification": "ASC"
+  },
+  {
+    "id": "P002",
+    "name": "Atlantic Cod Fillet",
+    "species": "Cod",
+    "origin_country": "Iceland",
+    "production_method": "wild",
+    "price_per_tonne": 2150,
+    "supplier_name": "Nordic Sea Co",
+    "certification": "MSC"
+  },
+  {
+    "id": "P003",
+    "name": "Smoked Salmon Slices",
+    "species": "Salmon",
+    "origin_country": "Scotland",
+    "production_method": "aquaculture",
+    "price_per_tonne": 3200,
+    "supplier_name": "Highland Smokehouse",
+    "certification": "ASC"
+  },
+  {
+    "id": "P004",
+    "name": "Haddock Portions",
+    "species": "Haddock",
+    "origin_country": "Norway",
+    "production_method": "wild",
+    "price_per_tonne": 2050,
+    "supplier_name": "Fjord Fisheries",
+    "certification": "MSC"
+  },
+  {
+    "id": "P005",
+    "name": "Canned Tuna CHUNK",
+    "species": "Tuna",
+    "origin_country": "Thailand",
+    "production_method": "wild",
+    "price_per_tonne": 1450,
+    "supplier_name": "Siam Oceanic",
+    "certification": "None"
+  },
+  {
+    "id": "P006",
+    "name": "Mussels Vac-Pack",
+    "species": "Mussel",
+    "origin_country": "Netherlands",
+    "production_method": "aquaculture",
+    "price_per_tonne": 950,
+    "supplier_name": "Delta Shellfish",
+    "certification": "ASC"
+  }
+]
